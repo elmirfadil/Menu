@@ -3,37 +3,35 @@
   margin: 0 auto;
 }
 
-.orders {
-  background: cadetblue;
+#orders {
   height: 100vh;
 }
-.ordersOne {
-  padding: 40px 0;
+
+.orders {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
 }
-.ordersOne h1 {
+
+.orders h1 {
   color: #33332d;
   font-size: 32px;
   font-weight: 500;
   letter-spacing: 3.2px;
   text-align: center;
+  margin-top: 40px;
 }
 
 .ordersTwo {
-  margin-top: 50px;
-  margin-left: 300px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 800px;
-  height: 130px;
+  height: 140px;
   border-radius: 10px;
   background: #d9d9d9;
-}
-
-.ordersTwo img {
-  width: 186px;
-  height: 103px;
-  border-radius: 10px;
 }
 
 .text h3 {
@@ -43,11 +41,11 @@
   letter-spacing: 1.08px;
 }
 .text p {
-  margin: 10px 0;
   color: #000;
   font-size: 24px;
   font-weight: 500;
   letter-spacing: 0.72px;
+  padding: 20px 0;
 }
 .delBtn {
   width: 188px;
@@ -59,13 +57,19 @@
   font-weight: 500;
   letter-spacing: 0.6px;
   border: none;
-  margin: 15px 0;
+  margin: -30px 0;
 }
 
-.pulus {
+.counter {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.counter h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+  padding: 0 15px;
 }
 
 .min {
@@ -78,6 +82,7 @@
   font-weight: 500;
   letter-spacing: 1.08px;
   border: none;
+  margin-top: 35px;
 }
 .pul {
   width: 60px;
@@ -89,10 +94,5 @@
   font-weight: 500;
   letter-spacing: 1.08px;
   border: none;
-}
-.pulus p {
-  color: #000;
-  font-size: 24px;
-  font-weight: 500;
-  letter-spacing: 0.72px;
+  margin-top: 35px;
 }

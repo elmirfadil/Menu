@@ -6,9 +6,8 @@ const Admin = () => {
     <div>
       <div id="admin">
         <div className="container">
-          <div class="box">
-            <div class="main-box">
-              <h1>Create Product</h1>
+          <div class="admin"> 
+            <h1>CREATE PRODUCT</h1></div>
               <div class="box-input">
                 <input class="name" type="text" placeholder="Image URL..." />
               </div>
@@ -18,9 +17,9 @@ const Admin = () => {
               <div class="box-input">
                 <input class="image" type="text" placeholder="Price" />
               </div>
-              <button class="create">create</button>
-            </div>
-          </div>
+              <div className="create">
+              <button>create</button>
+              </div>
         </div>
       </div>
     </div>

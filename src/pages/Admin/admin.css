@@ -1,32 +1,31 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
 .container {
   width: 100%;
   margin: 0 auto;
 }
-.box {
+#admin {
   height: 100vh;
   background: cadetblue;
 }
-.main-box h1 {
-  color: #33332D;
-  font-size: 32px;
-  font-weight: 500;
-  letter-spacing: 3.2px;
-  text-align: center;
-}
-.main-box {
+
+.admin {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  padding: 50px 0;
 }
+
+.admin h1 {
+  color: #33332d;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 3.2px;
+  text-align: center;
+  margin-top: 40px;
+}
+
 input {
   color: #000;
+  background: #d9d9d9;
   font-size: 24px;
   font-weight: 500;
   letter-spacing: 2.4px;
@@ -37,23 +36,33 @@ input {
 }
 
 .box-input {
-  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
 }
 
 .create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create button {
   width: 254.1px;
   height: 80px;
   border-radius: 10px;
-  background: #fff;
+  background: #d9d9d9;
   padding: 4px 7px;
   cursor: pointer;
   border: none;
-  color: black;
+  color: #33332d;
   font-size: 36px;
   font-weight: 500;
   letter-spacing: 1.08px;
+  margin-top: 30px;
 }
-.create:hover {
+.create button:hover {
   background: #ddaa27;
-  color: #fff;
+  color: #d9d9d9;
 }
